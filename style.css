@@ -1,0 +1,85 @@
+body {
+  font-weight: bolder;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+
+input[type=text], select {
+  display: block;
+  text-align: center;
+  width: 38%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  padding: 5px 8px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  margin: 0;
+}
+
+.txt-medium {
+  font-size: 20px;
+}
+
+.column {
+  column-count: 4;
+  column-gap: 8px;
+}
+
+.single-column {
+  column-count: 1;
+}
+
+.img-legacy {
+  width: 12%;
+}
+
+.img-bb {
+  width: 44%;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-margin {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.head-margin {
+  margin-bottom: 8px;
+}
+
+.row-margin {
+  margin-bottom: 16px;
+}
+
+.block-margin {
+  margin-bottom: 18px;
+}
+
+/*
+#HU_column, #RA_column, #FO_column {
+
+}
+
+#bbcol_head {
+
+}
+
+#legacycol_head {
+
+}
+
+#legacycol {
+
+}
+*/
