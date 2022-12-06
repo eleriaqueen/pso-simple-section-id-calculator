@@ -1,2 +1,2 @@
-# pso-simple-section-id-calculator
-A simple PSO Section ID calculator
+# Simple Section ID Calculator
+Can calculate a Section ID for DC/PC/GC/XB and BB
