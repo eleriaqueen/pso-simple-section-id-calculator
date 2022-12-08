@@ -5,7 +5,7 @@ body {
   background-color: black;
 }
 
-input[type=text], select {
+input[type=text] {
   display: block;
   text-align: center;
   width: 38%;
@@ -15,6 +15,7 @@ input[type=text], select {
   padding: 5px 8px;
   border: 2px solid #ccc;
   box-sizing: border-box;
+  outline: none;
 }
 
 p {
