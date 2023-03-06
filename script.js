@@ -56,10 +56,10 @@ document.querySelector('#name').addEventListener('input', function(){
     if ((inputElement.value.length !== 0) && (inputElement.value.length <= 12) && (isStrAscii(inputElement.value) === true)) {
 
         document.querySelector('#tf0').textContent = sectionIdList[(processCharName() + 5) % 10];
-        document.getElementById("img0").src = imgDirectory + sectionIdList[(processCharName() + 5) % 10] + pngExtension;
+        document.getElementById('img0').src = imgDirectory + sectionIdList[(processCharName() + 5) % 10] + pngExtension;
     } else {
-        document.querySelector('#tf0').textContent = "N/A";
-        document.getElementById("img0").src = imgDirectory + 'impossible' + pngExtension;
+        document.querySelector('#tf0').textContent = 'N/A';
+        document.getElementById('img0').src = imgDirectory + 'Impossible' + pngExtension;
     }
 
     if ((inputElement.value.length !== 0) && (inputElement.value.length <= 10)) {
@@ -71,7 +71,7 @@ document.querySelector('#name').addEventListener('input', function(){
     } else {
         for (var i = 1; i <= 12; i++) {
             document.querySelector(textFieldList[i]).textContent = 'N/A';
-            document.getElementById(img[i]).src = imgDirectory + 'impossible' + pngExtension;
+            document.getElementById(img[i]).src = imgDirectory + 'Impossible' + pngExtension;
         }
     }
 });
