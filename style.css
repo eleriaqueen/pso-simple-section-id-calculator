@@ -1,4 +1,5 @@
 body {
+  font-family: sans-serif;
   font-weight: bolder;
   font-size: 1.2em;
   color: white;
@@ -6,10 +7,15 @@ body {
 }
 
 input[type=text] {
+  color: white;
   grid-column: 2;
   text-align: center;
+  font-weight: bolder;
+  font-size: 1.2em;
   padding: 5px 8px;
   outline: none;
+  border: none;
+  background: transparent;
 }
 
 p {
