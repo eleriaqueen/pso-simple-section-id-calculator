@@ -45,14 +45,28 @@ p {
   border-style: dashed solid;
 }
 
-.classic-section-id-img {
-  margin: auto;
-  width: 50%;
+@media screen and (orientation: landscape) {
+  .classic-section-id-img {
+    margin: auto;
+    width: 25%;
+  }
+
+  .section-id-img {
+    margin: auto;
+    width: 25%;
+  }
 }
 
-.section-id-img {
-  margin: auto;
-  width: 50%;
+@media screen and (orientation: portrait) {
+  .classic-section-id-img {
+    margin: auto;
+    width: 65%;
+  }
+
+  .section-id-img {
+    margin: auto;
+    width: 65%;
+  }
 }
 
 .grid-h {
