@@ -1,5 +1,5 @@
 var imgDirectory = "img/";
-var pngExtension = ".png";
+var imgExtension = ".webp";
 var sectionIdList = ['Viridia', 'Greenill', 'Skyly', 'Bluefull',
           'Purplenum', 'Pinkal', 'Redria', 'Oran',
           'Yellowboze', 'Whitill'];
@@ -56,22 +56,22 @@ document.querySelector('#name').addEventListener('input', function(){
     if ((inputElement.value.length !== 0) && (inputElement.value.length <= 12) && (isStrAscii(inputElement.value) === true)) {
 
         document.querySelector('#tf0').textContent = sectionIdList[(processCharName() + 5) % 10];
-        document.getElementById('img0').src = imgDirectory + sectionIdList[(processCharName() + 5) % 10] + pngExtension;
+        document.getElementById('img0').src = imgDirectory + sectionIdList[(processCharName() + 5) % 10] + imgExtension;
     } else {
         document.querySelector('#tf0').textContent = 'N/A';
-        document.getElementById('img0').src = imgDirectory + 'Impossible' + pngExtension;
+        document.getElementById('img0').src = imgDirectory + 'Impossible' + imgExtension;
     }
 
     if ((inputElement.value.length !== 0) && (inputElement.value.length <= 10)) {
 
         for (var i = 1; i <= 12; i++) {
             document.querySelector(textFieldList[i]).textContent = sectionIdList[(processCharName() + magicNumberList[i - 1]) % 10];
-            document.getElementById(img[i]).src = imgDirectory + sectionIdList[(processCharName() + magicNumberList[i - 1]) % 10] + pngExtension;
+            document.getElementById(img[i]).src = imgDirectory + sectionIdList[(processCharName() + magicNumberList[i - 1]) % 10] + imgExtension;
         }
     } else {
         for (var i = 1; i <= 12; i++) {
             document.querySelector(textFieldList[i]).textContent = 'N/A';
-            document.getElementById(img[i]).src = imgDirectory + 'Impossible' + pngExtension;
+            document.getElementById(img[i]).src = imgDirectory + 'Impossible' + imgExtension;
         }
     }
 });
