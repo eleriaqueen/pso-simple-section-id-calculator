@@ -1,5 +1,5 @@
 # Simple Section ID Calculator
-Can calculate a Section ID for DC/PC/GC/XB and BB
+Find which Section ID corresponds to your (character's) name using DC/PC/GC/XB and BB calculation.
 
-# Is there a hosted version one can use ?
+# Hosted Version
 [Simple Section ID Calculator](https://eleriaqueen.github.io/pso-simple-section-id-calculator/)
